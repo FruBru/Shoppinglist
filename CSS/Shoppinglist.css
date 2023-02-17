@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+
+body {
+    background-color: rgb(255, 136, 51);
+    color: #001651;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    width: 100vw;
+    margin-left: 200px;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./Assets/palms-v2.png);
+    background-position: center;
+    background-size: 100rem;
+    background-repeat: no-repeat;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0rem;
+    align-items: center;
+    position: fixed;
+}
+
+.flex-item {
+    justify-content: center;
+    width: 100%;
+}
+
+.flex-item-1 {
+    font-family: 'DM Serif Display', serif;
+    color: rgb(13, 15, 100);
+    font-size: 30px;
+    margin-top: 15rem;
+    font-weight: lighter;
+}
+
+.flex-item-2 {
+    
+    padding: 1.5rem;
+    padding-right: 2rem;
+    width: max-content;
+    margin: 0;
+    margin-top: -12rem;
+    margin-left: 30rem;
+    border-radius: 2rem;
+}
+
+.flex-item-2-bck {
+    background-color: rgb(254, 254, 159);
+}
+
+.buyed {
+    text-decoration: line-through;
+}
+
+
+@media screen and (max-width: 1200px){
+    #shopping-list {
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+}
+
+ul {
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+}
+
+li::before {
+    content: "\263A";
+    color: blueviolet;
+    list-style-position: inside;
+}
+
+
+#product {
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    border-radius: 1rem;
+    border-style: none;
+    box-shadow: 2px 5px 2px rgb(90, 44, 0, 0.3);
+}
+
+
+
+button {
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    border-radius: 1rem;
+    border-style: none;
+    filter: drop-shadow(50%);
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    box-shadow: 2px 5px 2px rgba(91, 44, 1, 0.3);
+}
+
+button:hover {
+    background-color: yellow;
+    color: blueviolet;
+    box-shadow: 1px 2px 1px rgb(90, 44, 0, 0.9);
+}
+
+
+h1 {
+    margin-bottom: -1rem;
+    margin-left: 1rem;
+}
+
+h2 {
+    margin-top: 0rem;
+}
+
+/*@media screen and (max-width: 1600px){
+    img {
+        display: none;
+    }
+}*/
