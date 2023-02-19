@@ -12,7 +12,7 @@ body {
     margin-top: 100px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(./);
+    background-image: url(../Assets/palms-v2.png);
     background-position: center;
     background-size: 100rem;
     background-repeat: no-repeat;
@@ -119,9 +119,3 @@ h1 {
 h2 {
     margin-top: 0rem;
 }
-
-/*@media screen and (max-width: 1600px){
-    img {
-        display: none;
-    }
-}*/
